@@ -1,0 +1,9 @@
+[project]
+name = "hiver-support-agent"
+version = "0.1.0"
+description = "Reproducible support-agent take-home baseline"
+requires-python = ">=3.10"
+dependencies = ["kagglehub>=1.0.0"]
+
+[project.scripts]
+hiver-evaluate = "evaluate:main"

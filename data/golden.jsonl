@@ -1,0 +1,160 @@
+{"id": "gold-001", "brand": "ExampleBrand", "text": "I cannot log in to my account", "intent": "account_access", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-002", "brand": "ExampleBrand", "text": "I cannot log in to my account today", "intent": "account_access", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-003", "brand": "ExampleBrand", "text": "I cannot log in to my account please", "intent": "account_access", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-004", "brand": "ExampleBrand", "text": "I cannot log in to my account - can you help", "intent": "account_access", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-005", "brand": "ExampleBrand", "text": "I cannot log in to my account urgently", "intent": "account_access", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-006", "brand": "ExampleBrand", "text": "I cannot log in to my account for my order", "intent": "account_access", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-007", "brand": "ExampleBrand", "text": "I cannot log in to my account on mobile", "intent": "account_access", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-008", "brand": "ExampleBrand", "text": "I cannot log in to my account this morning", "intent": "account_access", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-009", "brand": "ExampleBrand", "text": "I cannot log in to my account right now", "intent": "account_access", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-010", "brand": "ExampleBrand", "text": "I cannot log in to my account thanks", "intent": "account_access", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-011", "brand": "ExampleBrand", "text": "How do I reset my password?", "intent": "account_access", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-012", "brand": "ExampleBrand", "text": "How do I reset my password? today", "intent": "account_access", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-013", "brand": "ExampleBrand", "text": "How do I reset my password? please", "intent": "account_access", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-014", "brand": "ExampleBrand", "text": "How do I reset my password? - can you help", "intent": "account_access", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-015", "brand": "ExampleBrand", "text": "How do I reset my password? urgently", "intent": "account_access", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-016", "brand": "ExampleBrand", "text": "How do I reset my password? for my order", "intent": "account_access", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-017", "brand": "ExampleBrand", "text": "How do I reset my password? on mobile", "intent": "account_access", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-018", "brand": "ExampleBrand", "text": "How do I reset my password? this morning", "intent": "account_access", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-019", "brand": "ExampleBrand", "text": "How do I reset my password? right now", "intent": "account_access", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-020", "brand": "ExampleBrand", "text": "How do I reset my password? thanks", "intent": "account_access", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-021", "brand": "ExampleBrand", "text": "My account is locked after verification", "intent": "account_access", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-022", "brand": "ExampleBrand", "text": "My account is locked after verification today", "intent": "account_access", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-023", "brand": "ExampleBrand", "text": "My account is locked after verification please", "intent": "account_access", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-024", "brand": "ExampleBrand", "text": "My account is locked after verification - can you help", "intent": "account_access", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-025", "brand": "ExampleBrand", "text": "My account is locked after verification urgently", "intent": "account_access", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-026", "brand": "ExampleBrand", "text": "My account is locked after verification for my order", "intent": "account_access", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-027", "brand": "ExampleBrand", "text": "My account is locked after verification on mobile", "intent": "account_access", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-028", "brand": "ExampleBrand", "text": "My account is locked after verification this morning", "intent": "account_access", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-029", "brand": "ExampleBrand", "text": "My account is locked after verification right now", "intent": "account_access", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-030", "brand": "ExampleBrand", "text": "My account is locked after verification thanks", "intent": "account_access", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-031", "brand": "ExampleBrand", "text": "I was charged twice this month", "intent": "billing", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-032", "brand": "ExampleBrand", "text": "I was charged twice this month today", "intent": "billing", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-033", "brand": "ExampleBrand", "text": "I was charged twice this month please", "intent": "billing", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-034", "brand": "ExampleBrand", "text": "I was charged twice this month - can you help", "intent": "billing", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-035", "brand": "ExampleBrand", "text": "I was charged twice this month urgently", "intent": "billing", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-036", "brand": "ExampleBrand", "text": "I was charged twice this month for my order", "intent": "billing", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-037", "brand": "ExampleBrand", "text": "I was charged twice this month on mobile", "intent": "billing", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-038", "brand": "ExampleBrand", "text": "I was charged twice this month this morning", "intent": "billing", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-039", "brand": "ExampleBrand", "text": "I was charged twice this month right now", "intent": "billing", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-040", "brand": "ExampleBrand", "text": "I was charged twice this month thanks", "intent": "billing", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-041", "brand": "ExampleBrand", "text": "Can I get a refund for this payment?", "intent": "billing", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-042", "brand": "ExampleBrand", "text": "Can I get a refund for this payment? today", "intent": "billing", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-043", "brand": "ExampleBrand", "text": "Can I get a refund for this payment? please", "intent": "billing", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-044", "brand": "ExampleBrand", "text": "Can I get a refund for this payment? - can you help", "intent": "billing", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-045", "brand": "ExampleBrand", "text": "Can I get a refund for this payment? urgently", "intent": "billing", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-046", "brand": "ExampleBrand", "text": "Can I get a refund for this payment? for my order", "intent": "billing", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-047", "brand": "ExampleBrand", "text": "Can I get a refund for this payment? on mobile", "intent": "billing", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-048", "brand": "ExampleBrand", "text": "Can I get a refund for this payment? this morning", "intent": "billing", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-049", "brand": "ExampleBrand", "text": "Can I get a refund for this payment? right now", "intent": "billing", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-050", "brand": "ExampleBrand", "text": "Can I get a refund for this payment? thanks", "intent": "billing", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-051", "brand": "ExampleBrand", "text": "Where can I find my invoice?", "intent": "billing", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-052", "brand": "ExampleBrand", "text": "Where can I find my invoice? today", "intent": "billing", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-053", "brand": "ExampleBrand", "text": "Where can I find my invoice? please", "intent": "billing", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-054", "brand": "ExampleBrand", "text": "Where can I find my invoice? - can you help", "intent": "billing", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-055", "brand": "ExampleBrand", "text": "Where can I find my invoice? urgently", "intent": "billing", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-056", "brand": "ExampleBrand", "text": "Where can I find my invoice? for my order", "intent": "billing", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-057", "brand": "ExampleBrand", "text": "Where can I find my invoice? on mobile", "intent": "billing", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-058", "brand": "ExampleBrand", "text": "Where can I find my invoice? this morning", "intent": "billing", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-059", "brand": "ExampleBrand", "text": "Where can I find my invoice? right now", "intent": "billing", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-060", "brand": "ExampleBrand", "text": "Where can I find my invoice? thanks", "intent": "billing", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-061", "brand": "ExampleBrand", "text": "My order has not arrived yet", "intent": "delivery", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-062", "brand": "ExampleBrand", "text": "My order has not arrived yet today", "intent": "delivery", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-063", "brand": "ExampleBrand", "text": "My order has not arrived yet please", "intent": "delivery", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-064", "brand": "ExampleBrand", "text": "My order has not arrived yet - can you help", "intent": "delivery", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-065", "brand": "ExampleBrand", "text": "My order has not arrived yet urgently", "intent": "delivery", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-066", "brand": "ExampleBrand", "text": "My order has not arrived yet for my order", "intent": "delivery", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-067", "brand": "ExampleBrand", "text": "My order has not arrived yet on mobile", "intent": "delivery", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-068", "brand": "ExampleBrand", "text": "My order has not arrived yet this morning", "intent": "delivery", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-069", "brand": "ExampleBrand", "text": "My order has not arrived yet right now", "intent": "delivery", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-070", "brand": "ExampleBrand", "text": "My order has not arrived yet thanks", "intent": "delivery", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-071", "brand": "ExampleBrand", "text": "The tracking says delivered but I have nothing", "intent": "delivery", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-072", "brand": "ExampleBrand", "text": "The tracking says delivered but I have nothing today", "intent": "delivery", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-073", "brand": "ExampleBrand", "text": "The tracking says delivered but I have nothing please", "intent": "delivery", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-074", "brand": "ExampleBrand", "text": "The tracking says delivered but I have nothing - can you help", "intent": "delivery", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-075", "brand": "ExampleBrand", "text": "The tracking says delivered but I have nothing urgently", "intent": "delivery", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-076", "brand": "ExampleBrand", "text": "The tracking says delivered but I have nothing for my order", "intent": "delivery", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-077", "brand": "ExampleBrand", "text": "The tracking says delivered but I have nothing on mobile", "intent": "delivery", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-078", "brand": "ExampleBrand", "text": "The tracking says delivered but I have nothing this morning", "intent": "delivery", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-079", "brand": "ExampleBrand", "text": "The tracking says delivered but I have nothing right now", "intent": "delivery", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-080", "brand": "ExampleBrand", "text": "The tracking says delivered but I have nothing thanks", "intent": "delivery", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-081", "brand": "ExampleBrand", "text": "When will my shipment arrive?", "intent": "delivery", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-082", "brand": "ExampleBrand", "text": "When will my shipment arrive? today", "intent": "delivery", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-083", "brand": "ExampleBrand", "text": "When will my shipment arrive? please", "intent": "delivery", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-084", "brand": "ExampleBrand", "text": "When will my shipment arrive? - can you help", "intent": "delivery", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-085", "brand": "ExampleBrand", "text": "When will my shipment arrive? urgently", "intent": "delivery", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-086", "brand": "ExampleBrand", "text": "When will my shipment arrive? for my order", "intent": "delivery", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-087", "brand": "ExampleBrand", "text": "When will my shipment arrive? on mobile", "intent": "delivery", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-088", "brand": "ExampleBrand", "text": "When will my shipment arrive? this morning", "intent": "delivery", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-089", "brand": "ExampleBrand", "text": "When will my shipment arrive? right now", "intent": "delivery", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-090", "brand": "ExampleBrand", "text": "When will my shipment arrive? thanks", "intent": "delivery", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-091", "brand": "ExampleBrand", "text": "The app crashes when I open it", "intent": "technical_issue", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-092", "brand": "ExampleBrand", "text": "The app crashes when I open it today", "intent": "technical_issue", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-093", "brand": "ExampleBrand", "text": "The app crashes when I open it please", "intent": "technical_issue", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-094", "brand": "ExampleBrand", "text": "The app crashes when I open it - can you help", "intent": "technical_issue", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-095", "brand": "ExampleBrand", "text": "The app crashes when I open it urgently", "intent": "technical_issue", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-096", "brand": "ExampleBrand", "text": "The app crashes when I open it for my order", "intent": "technical_issue", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-097", "brand": "ExampleBrand", "text": "The app crashes when I open it on mobile", "intent": "technical_issue", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-098", "brand": "ExampleBrand", "text": "The app crashes when I open it this morning", "intent": "technical_issue", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-099", "brand": "ExampleBrand", "text": "The app crashes when I open it right now", "intent": "technical_issue", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-100", "brand": "ExampleBrand", "text": "The app crashes when I open it thanks", "intent": "technical_issue", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-101", "brand": "ExampleBrand", "text": "Your website is broken and shows an error", "intent": "technical_issue", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-102", "brand": "ExampleBrand", "text": "Your website is broken and shows an error today", "intent": "technical_issue", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-103", "brand": "ExampleBrand", "text": "Your website is broken and shows an error please", "intent": "technical_issue", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-104", "brand": "ExampleBrand", "text": "Your website is broken and shows an error - can you help", "intent": "technical_issue", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-105", "brand": "ExampleBrand", "text": "Your website is broken and shows an error urgently", "intent": "technical_issue", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-106", "brand": "ExampleBrand", "text": "Your website is broken and shows an error for my order", "intent": "technical_issue", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-107", "brand": "ExampleBrand", "text": "Your website is broken and shows an error on mobile", "intent": "technical_issue", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-108", "brand": "ExampleBrand", "text": "Your website is broken and shows an error this morning", "intent": "technical_issue", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-109", "brand": "ExampleBrand", "text": "Your website is broken and shows an error right now", "intent": "technical_issue", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-110", "brand": "ExampleBrand", "text": "Your website is broken and shows an error thanks", "intent": "technical_issue", "escalated": true, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-111", "brand": "ExampleBrand", "text": "The feature is not working", "intent": "technical_issue", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-112", "brand": "ExampleBrand", "text": "The feature is not working today", "intent": "technical_issue", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-113", "brand": "ExampleBrand", "text": "The feature is not working please", "intent": "technical_issue", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-114", "brand": "ExampleBrand", "text": "The feature is not working - can you help", "intent": "technical_issue", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-115", "brand": "ExampleBrand", "text": "The feature is not working urgently", "intent": "technical_issue", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-116", "brand": "ExampleBrand", "text": "The feature is not working for my order", "intent": "technical_issue", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-117", "brand": "ExampleBrand", "text": "The feature is not working on mobile", "intent": "technical_issue", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-118", "brand": "ExampleBrand", "text": "The feature is not working this morning", "intent": "technical_issue", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-119", "brand": "ExampleBrand", "text": "The feature is not working right now", "intent": "technical_issue", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-120", "brand": "ExampleBrand", "text": "The feature is not working thanks", "intent": "technical_issue", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-121", "brand": "ExampleBrand", "text": "Please cancel my subscription", "intent": "cancellation", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-122", "brand": "ExampleBrand", "text": "Please cancel my subscription today", "intent": "cancellation", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-123", "brand": "ExampleBrand", "text": "Please cancel my subscription please", "intent": "cancellation", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-124", "brand": "ExampleBrand", "text": "Please cancel my subscription - can you help", "intent": "cancellation", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-125", "brand": "ExampleBrand", "text": "Please cancel my subscription urgently", "intent": "cancellation", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-126", "brand": "ExampleBrand", "text": "Please cancel my subscription for my order", "intent": "cancellation", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-127", "brand": "ExampleBrand", "text": "Please cancel my subscription on mobile", "intent": "cancellation", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-128", "brand": "ExampleBrand", "text": "Please cancel my subscription this morning", "intent": "cancellation", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-129", "brand": "ExampleBrand", "text": "Please cancel my subscription right now", "intent": "cancellation", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-130", "brand": "ExampleBrand", "text": "Please cancel my subscription thanks", "intent": "cancellation", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-131", "brand": "ExampleBrand", "text": "I want to close my account", "intent": "cancellation", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-132", "brand": "ExampleBrand", "text": "I want to close my account today", "intent": "cancellation", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-133", "brand": "ExampleBrand", "text": "I want to close my account please", "intent": "cancellation", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-134", "brand": "ExampleBrand", "text": "I want to close my account - can you help", "intent": "cancellation", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-135", "brand": "ExampleBrand", "text": "I want to close my account urgently", "intent": "cancellation", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-136", "brand": "ExampleBrand", "text": "I want to close my account for my order", "intent": "cancellation", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-137", "brand": "ExampleBrand", "text": "I want to close my account on mobile", "intent": "cancellation", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-138", "brand": "ExampleBrand", "text": "I want to close my account this morning", "intent": "cancellation", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-139", "brand": "ExampleBrand", "text": "I want to close my account right now", "intent": "cancellation", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-140", "brand": "ExampleBrand", "text": "I want to close my account thanks", "intent": "cancellation", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-141", "brand": "ExampleBrand", "text": "How do I unsubscribe?", "intent": "cancellation", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-142", "brand": "ExampleBrand", "text": "How do I unsubscribe? today", "intent": "cancellation", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-143", "brand": "ExampleBrand", "text": "How do I unsubscribe? please", "intent": "cancellation", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-144", "brand": "ExampleBrand", "text": "How do I unsubscribe? - can you help", "intent": "cancellation", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-145", "brand": "ExampleBrand", "text": "How do I unsubscribe? urgently", "intent": "cancellation", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-146", "brand": "ExampleBrand", "text": "How do I unsubscribe? for my order", "intent": "cancellation", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-147", "brand": "ExampleBrand", "text": "How do I unsubscribe? on mobile", "intent": "cancellation", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-148", "brand": "ExampleBrand", "text": "How do I unsubscribe? this morning", "intent": "cancellation", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-149", "brand": "ExampleBrand", "text": "How do I unsubscribe? right now", "intent": "cancellation", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-150", "brand": "ExampleBrand", "text": "How do I unsubscribe? thanks", "intent": "cancellation", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-151", "brand": "ExampleBrand", "text": "Is this product available in my country?", "intent": "product_question", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-152", "brand": "ExampleBrand", "text": "Is this product available in my country? today", "intent": "product_question", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-153", "brand": "ExampleBrand", "text": "Is this product available in my country? please", "intent": "product_question", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-154", "brand": "ExampleBrand", "text": "Is this product available in my country? - can you help", "intent": "product_question", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-155", "brand": "ExampleBrand", "text": "Is this product available in my country? urgently", "intent": "product_question", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-156", "brand": "ExampleBrand", "text": "Is this product available in my country? for my order", "intent": "product_question", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-157", "brand": "ExampleBrand", "text": "Is this product available in my country? on mobile", "intent": "product_question", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-158", "brand": "ExampleBrand", "text": "Is this product available in my country? this morning", "intent": "product_question", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-159", "brand": "ExampleBrand", "text": "Is this product available in my country? right now", "intent": "product_question", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
+{"id": "gold-160", "brand": "ExampleBrand", "text": "Is this product available in my country? thanks", "intent": "product_question", "escalated": false, "label_source": "reviewed seed + controlled paraphrase"}
