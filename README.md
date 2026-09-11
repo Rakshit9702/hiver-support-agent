@@ -52,6 +52,44 @@ print(run_agent("Where is my order?", history))
 
 The offline lexical proxy is only a smoke check. For an LLM judge, provide the original message, retrieved historical replies, draft, and this rubric; require JSON scores and a short reason. Calibrate it by running `judge_calibration.py`, having a human blind-score the generated CSV, then running the same command with `--human completed.csv`. Report per-dimension raw agreement, sample size, and disagreements. Do not report judge quality without this calibration step.
 
+## What Good Means
+
+For AppleSupport, a good agent should recognize the support action needed, use the brand's established resolution style, avoid inventing policy, and route safety, security, billing-risk, and ambiguous cases to a person. A routine issue such as an iOS bug can receive a concrete troubleshooting step or a request for device/version details. A message about electrical shocks, account compromise, fraud, or an unclear problem should not be confidently auto-resolved.
+
+I chose not to build a fully autonomous account or refund workflow, a production CRM integration, a multilingual generative model, or a fine-tuned LLM. The dataset is noisy and the assignment rewards trustworthy evidence, so this submission prioritizes an inspectable baseline, historical-response evidence, explicit escalation reasons, and reproducible evaluation.
+
+## Baselines
+
+The independent review set contains 250 examples. Its majority intent is `technical_issue` (193/250), so a trivial majority-intent classifier scores **77.2%**. Its majority routing decision is `auto-handle` (222/250), so an always-auto-handle routing policy scores **88.8%**. These baselines are useful because they show how misleading accuracy can be when the sample is dominated by technical complaints.
+
+| System | Intent accuracy | Routing accuracy | Purpose |
+| --- | ---: | ---: | --- |
+| Majority intent / majority route | 77.2% | 88.8% | Trivial reference point |
+| Interpretable keyword classifier and risk rules | 39.6% | 88.8% | Simple, inspectable baseline |
+| Retrieval/template reply layer | Not separately measured | N/A | Drafts replies; judged with the rubric |
+
+The current system is intentionally simple rather than pretending to be a stronger LLM system. Its routing score matches the majority baseline, while its intent score is lower because the independently reviewed labels use a different taxonomy and expose overlap between technical complaints, product questions, delivery, and other messages.
+
+## Failure Analysis
+
+The top observed failure modes are:
+
+1. **Broad technical vocabulary overwhelms specific intent.** For example, tweet `553544` mentions a phone resetting and an iOS update but contains the word “order”; the classifier predicts `delivery`. Hypothesis: substring keywords need phrase-level matching and product/support taxonomy rules.
+2. **Questions are mistaken for product questions.** Tweet `359287` describes an update stuck for hours and is predicted as `product_question`. Hypothesis: words such as “help” and “hours” are too generic; the classifier should prioritize concrete failure symptoms.
+3. **Billing words describe device symptoms, not payment.** Tweets `1363240` and `1818662` contain “charged” or “charging” while discussing battery power, causing billing predictions. Hypothesis: charging, battery, payment, and purchase need separate phrase contexts.
+4. **Vague follow-ups are difficult to classify.** Tweets `162738` (“Did that already.”) and `627969` (“Nope, it’s turned off”) depend on earlier thread context that is not included in the single-message classifier. Hypothesis: classification should retrieve the preceding conversation turns.
+5. **Safety signals are under-routed by generic rules.** Tweet `269514` reports mild electric shocks from a MacBook, while some simple keyword paths treat it as a routine technical issue. Hypothesis: safety detection should have a higher-priority policy layer with mandatory human escalation.
+
+These examples are preserved in `data/apple_support_independent_review.csv` and `artifacts/apple_support/independent_final/predictions.jsonl` so each error can be inspected rather than reduced to one score.
+
+## What Is Misleading About the Headline Number?
+
+The headline intent score of **39.6%** is more honest than the earlier 100% result, but it still needs context. First, the 250 examples are a review sample, not a random estimate of all AppleSupport traffic. Second, `technical_issue` is the majority label, so the 77.2% majority baseline can look better than a more informative classifier. Third, the independent labels were produced in an assisted review workflow and approved for analysis; they are not labels from two independent human raters. Fourth, the reply score of 2.996/3 is an offline lexical proxy, not evidence that an LLM judge agrees with humans. Finally, the current evaluation does not yet enforce a temporal holdout over all retrieval history, so it should not be presented as production readiness.
+
+## One More Week
+
+With one additional week, I would: (1) hand-audit a stratified 200-example set blind to model predictions with a second rater; (2) add thread-aware, temporal train/test splits; (3) replace substring matching with TF-IDF or embedding retrieval over historical AppleSupport resolutions; (4) add a separate safety and sensitive-account policy classifier; (5) implement an actual LLM judge with JSON outputs and calibrate it against both raters; and (6) run an ablation comparing majority, lexical, retrieval-only, and retrieval-plus-LLM systems with confidence intervals and per-intent recall.
+
 ## Golden set
 
 `data/apple_support_golden.jsonl` is the 250-row real-data golden set reviewed and approved after AI-assisted annotation. `data/apple_support_golden.csv` preserves the review audit trail. `make_golden.py` remains an offline smoke fixture for development only and must not be used as the assignment headline result.
